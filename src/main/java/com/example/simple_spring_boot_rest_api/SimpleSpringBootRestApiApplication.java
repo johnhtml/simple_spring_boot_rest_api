@@ -10,4 +10,10 @@ public class SimpleSpringBootRestApiApplication {
 		SpringApplication.run(SimpleSpringBootRestApiApplication.class, args);
 	}
 
+
+	// Note
+	// get a light version of the Docker postgres image with
+	// docker run --name postgres-spring -e POSTGRES_PASSWORD=password -d -p 5432:5432 postgres:alpine
+
+	// # psql -U postgres
 }
