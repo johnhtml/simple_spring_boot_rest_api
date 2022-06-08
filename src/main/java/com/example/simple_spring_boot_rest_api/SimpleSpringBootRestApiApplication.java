@@ -16,4 +16,8 @@ public class SimpleSpringBootRestApiApplication {
 	// docker run --name postgres-spring -e POSTGRES_PASSWORD=password -d -p 5432:5432 postgres:alpine
 
 	// # psql -U postgres
+	// \l show all databases
+	// \c connect to database
+	// \d describe
+
 }
